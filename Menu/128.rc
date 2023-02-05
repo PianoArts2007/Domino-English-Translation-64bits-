@@ -1,0 +1,796 @@
+128 MENU
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  POPUP "File"
+  {
+    MENUITEM "New Project",  57600
+    MENUITEM "Open",  57601
+    MENUITEM "Save Project",  57603
+    MENUITEM "Save Project As",  57604
+    MENUITEM SEPARATOR
+    MENUITEM "Project Properties",  32792
+    MENUITEM SEPARATOR
+    MENUITEM "Export MIDI",  32794
+    MENUITEM "Re-Export MIDI",  33323
+    MENUITEM SEPARATOR
+    MENUITEM "Open Part",  33322
+    MENUITEM "Export Part",  33321
+    MENUITEM SEPARATOR
+    MENUITEM "Settings",  32793
+    MENUITEM "Import Settings",  33310
+    MENUITEM "Export Settings",  33311
+    MENUITEM SEPARATOR
+    POPUP "Recent Files"
+    {
+      MENUITEM "00",  32771
+      MENUITEM "01",  32772
+      MENUITEM "02",  32773
+      MENUITEM "03",  32774
+      MENUITEM "04",  32775
+      MENUITEM "05",  32776
+      MENUITEM "06",  32777
+      MENUITEM "07",  32778
+      MENUITEM "08",  32779
+      MENUITEM "09",  32780
+      MENUITEM "10",  32781
+      MENUITEM "11",  32782
+      MENUITEM "12",  32783
+      MENUITEM "13",  32784
+      MENUITEM "14",  32785
+      MENUITEM "15",  32786
+      MENUITEM "16",  32787
+      MENUITEM "17",  32788
+      MENUITEM "18",  32789
+      MENUITEM "19",  32790
+      MENUITEM SEPARATOR
+      MENUITEM "Clear",  32791
+    }
+    MENUITEM SEPARATOR
+    MENUITEM "Exit",  57665
+  }
+  POPUP "Edit"
+  {
+    MENUITEM "Undo",  57643
+    MENUITEM "Redo",  57644
+    MENUITEM SEPARATOR
+    MENUITEM "Cut",  57635
+    MENUITEM "Cut (padded)",  33290
+    MENUITEM SEPARATOR
+    MENUITEM "Copy",  57634
+    MENUITEM SEPARATOR
+    MENUITEM "Paste",  57637
+    MENUITEM "Insert Pase",  32796
+    MENUITEM "Paste Replace",  33318
+    MENUITEM SEPARATOR
+    MENUITEM "Delete",  32795
+    MENUITEM "Delete (fill)",  33136
+    MENUITEM "Delete Previous Event",  33128
+    MENUITEM "Delete Close Previous Event",  33129
+    MENUITEM SEPARATOR
+    POPUP "Selection"
+    {
+      MENUITEM "Select All",  57642
+      MENUITEM "Range Selection",  33087
+      MENUITEM "Select untill next bar",  33291
+      MENUITEM "Select to previous bar",  33292
+      MENUITEM SEPARATOR
+      MENUITEM "Narrow Selection",  33045
+      MENUITEM "Note Selcetion Only",  33124
+      MENUITEM SEPARATOR
+      MENUITEM "Deselect",  32797
+    }
+    MENUITEM SEPARATOR
+    MENUITEM "Time insertion",  32798
+    MENUITEM "Remove Time",  32799
+    MENUITEM SEPARATOR
+    MENUITEM "Real-time Recording",  32800
+    MENUITEM "Step Record",  32801
+    MENUITEM "Exclusive Recevie",  32802
+    MENUITEM SEPARATOR
+    MENUITEM "Variable Table",  33019
+    MENUITEM SEPARATOR
+    MENUITEM "Step Lock Settings",  32805
+    MENUITEM "Step & Unlock",  32806
+    MENUITEM SEPARATOR
+    MENUITEM "Find",  33358
+  }
+  POPUP "View"
+  {
+    POPUP "Zoom Scale"
+    {
+      MENUITEM "X Axis - Zoom In",  32807
+      MENUITEM "X Axis - Zoom Out",  32808
+      MENUITEM SEPARATOR
+      MENUITEM "Y Axis - Zoom In",  32809
+      MENUITEM "Y Axis - Zoom Out",  32810
+    }
+    MENUITEM SEPARATOR
+    POPUP "Toolbar"
+    {
+      MENUITEM "Main Toolbar",  32804
+      MENUITEM "Edit Toolbar",  33017
+      MENUITEM "Default Gate/Velocity Toolbar",  33076
+      MENUITEM "Event List Filter Toolbar",  33120
+      MENUITEM "Event List MIDI Input Toolbar",  33284
+      MENUITEM SEPARATOR
+      MENUITEM "Custom Toolbar",  33042
+      MENUITEM "User Defined Toolbar",  33044
+      MENUITEM SEPARATOR
+      MENUITEM "Custom",  33016
+    }
+    MENUITEM "Mark Bar",  32811
+    MENUITEM "Track monitor bar",  33050
+    MENUITEM "Customize Track Monitor Bar",  33051
+    MENUITEM "Customize Track Monitor Bar",  32812
+    MENUITEM "Function Keyboard",  33276
+    MENUITEM "Status Bar",  59393
+    MENUITEM SEPARATOR
+    MENUITEM "Fix Bar Position",  33078
+    MENUITEM SEPARATOR
+    POPUP "Piano Roll Panel"
+    {
+      POPUP "Onion Skin"
+      {
+        MENUITEM "Using the Piano Roll Onion Skin Feature",  32821
+        MENUITEM SEPARATOR
+        MENUITEM "Show Previous Track in Piano Roll",  32822
+        MENUITEM "Show Next Track in Piano Roll",  32823
+        MENUITEM "Show Specified Tracks in Piano Roll...",  32824
+        MENUITEM "Show Tracks &Same Color in Piano Roll",  33296
+        MENUITEM SEPARATOR
+        MENUITEM "Save settings per track",  33082
+      }
+      MENUITEM "Show Scales/Chords",  33049
+      POPUP "Scrool"
+      {
+        MENUITEM "Up",  33132
+        MENUITEM "Down",  33133
+        MENUITEM "Left",  33134
+        MENUITEM "Right",  33135
+        MENUITEM SEPARATOR
+        MENUITEM "Down & Set scroll amount",  33137
+      }
+      MENUITEM "Automatic page break while playing",  33333
+    }
+    POPUP "Event List Panel"
+    {
+      MENUITEM "Event List Pane",  32816
+      MENUITEM "Move focus to event list pane",  33043
+      MENUITEM SEPARATOR
+      MENUITEM "Synchronize Cursor Position and Performance Position",  33079
+      MENUITEM SEPARATOR
+      POPUP "Filter"
+      {
+        MENUITEM "Advanced Filter Settings",  33098
+        MENUITEM SEPARATOR
+        MENUITEM "Using the Filter Function",  33099
+        MENUITEM "Reset",  33100
+        MENUITEM SEPARATOR
+        MENUITEM "Note Event",  33101
+        MENUITEM "Program change event",  33102
+        POPUP "Control Change Event"
+        {
+          MENUITEM "All Control Change Events",  33121
+          MENUITEM SEPARATOR
+          MENUITEM "Pitch Bend",  33105
+          MENUITEM "Modulation",  33106
+          MENUITEM "Expression",  33107
+          MENUITEM "Volume",  33108
+          MENUITEM "Panpot",  33109
+          MENUITEM "Hold",  33110
+          MENUITEM "LPF Cutoff Frequency",  33111
+          MENUITEM "LPF &Resonance",  33112
+          MENUITEM "Master Volume",  33113
+        }
+        MENUITEM "Exclusive Event",  33114
+        MENUITEM "Comment Event",  33115
+        MENUITEM "Variable assignment expression event",  33116
+        MENUITEM "Lyrics event",  33118
+        MENUITEM "Cue Point Event",  33119
+        MENUITEM "Major Link Events",  33316
+        MENUITEM "Tempo Event",  33117
+        MENUITEM "Time Signature Event",  33351
+        MENUITEM "Key Signature Event",  33352
+        MENUITEM "Scale Event",  33353
+        MENUITEM "Code Events",  33354
+        MENUITEM "Mark Events",  33355
+      }
+      MENUITEM SEPARATOR
+      MENUITEM "Reset Item Width",  33086
+    }
+    POPUP "Event Graph Panel 1"
+    {
+      MENUITEM "Event Graph Pane 1",  32817
+      MENUITEM "Anchor",  32973
+      MENUITEM "Onion Skin...",  33260
+      MENUITEM SEPARATOR
+      MENUITEM "Velocity",  32819
+      MENUITEM "Pitch Bend",  32988
+      MENUITEM "Modulation",  32989
+      MENUITEM "Expression",  32990
+      MENUITEM "Volume",  32991
+      MENUITEM "Panpot",  32992
+      MENUITEM "Hold",  32993
+      MENUITEM "LPF Cutoff Frequency",  32994
+      MENUITEM "LPF Resonance",  32995
+      MENUITEM "Master Volume",  32996
+    }
+    POPUP "Event Graph Pane 2"
+    {
+      MENUITEM "Event Graph Pane 2",  32818
+      MENUITEM "Anchor",  32974
+      MENUITEM "Onion Skin",  33261
+      MENUITEM SEPARATOR
+      MENUITEM "Velocity",  32820
+      MENUITEM "Pitch Bend",  32977
+      MENUITEM "Modulation",  32979
+      MENUITEM "Expression",  32980
+      MENUITEM "Volume",  32982
+      MENUITEM "Panpot",  32983
+      MENUITEM "Hold",  32984
+      MENUITEM "LPF Cutoff Frequency",  32985
+      MENUITEM "LPF Resonance",  32986
+      MENUITEM "Master Volume",  32987
+    }
+    MENUITEM "Track Select Panel",  33122
+    MENUITEM SEPARATOR
+    MENUITEM "Tracklist",  32813
+    MENUITEM SEPARATOR
+    MENUITEM "Performance monitor",  33125
+    MENUITEM "Reset Performance Monitor",  33293
+    MENUITEM SEPARATOR
+    MENUITEM "Output Pane",  32814
+    MENUITEM SEPARATOR
+    MENUITEM "Reset Panel Size",  33018
+  }
+  POPUP "Insert"
+  {
+    MENUITEM "Notes",  32826
+    MENUITEM "Program change",  32827
+    MENUITEM "Control Change",  32828
+    MENUITEM "Control Change (multiple)",  33046
+    MENUITEM "Exclusive",  32829
+    MENUITEM "Comments",  32830
+    MENUITEM "Lyrics",  33036
+    MENUITEM "Cue Point",  33037
+    MENUITEM "variable assignment expression",  32831
+    MENUITEM "Major Link",  33314
+    MENUITEM SEPARATOR
+    MENUITEM "Tempo",  32997
+    MENUITEM "Beat",  32803
+    MENUITEM "Key Signature",  33123
+    MENUITEM "Scale",  33335
+    MENUITEM "Code",  33336
+    MENUITEM SEPARATOR
+    MENUITEM "lyrics pouring in",  33343
+    MENUITEM SEPARATOR
+    MENUITEM "Insert notes from MIDI IN information",  33126
+    MENUITEM SEPARATOR
+    MENUITEM "Template...",  32832
+    MENUITEM SEPARATOR
+    POPUP "Tempo Value"
+    {
+      POPUP "Event graph 1"
+      {
+        MENUITEM "4",  33029
+        MENUITEM "3",  33028
+        MENUITEM "2",  33027
+        MENUITEM "1",  33026
+        MENUITEM "0",  33025
+      }
+      POPUP "Event graph 2"
+      {
+        MENUITEM "4",  33034
+        MENUITEM "3",  33033
+        MENUITEM "2",  33032
+        MENUITEM "1",  33031
+        MENUITEM "0",  33030
+      }
+    }
+    MENUITEM SEPARATOR
+    MENUITEM "Enter line/curve to selection",  32843
+    MENUITEM SEPARATOR
+    POPUP "Event List MIDI Input"
+    {
+      MENUITEM "Enable Event List MIDI Input",  33277
+      MENUITEM SEPARATOR
+      MENUITEM "Replace",  33278
+      MENUITEM "Insert",  33279
+      MENUITEM "Add",  33280
+      MENUITEM SEPARATOR
+      MENUITEM "Reflect note by note",  33281
+      MENUITEM "Velocity Reflect",  33282
+      MENUITEM "Reflect Note Number",  33283
+    }
+  }
+  POPUP "Events"
+  {
+    MENUITEM "Slice",  32838
+    MENUITEM "Truncated Slice",  32839
+    MENUITEM "Truncated Slice",  33328
+    MENUITEM SEPARATOR
+    MENUITEM "Bulk Changes",  32840
+    MENUITEM "Transpose",  32841
+    MENUITEM "Quantize",  32842
+    MENUITEM "Strum",  32844
+    MENUITEM "Humanize",  33097
+    MENUITEM "Legato",  33273
+    MENUITEM "Merge",  33329
+    MENUITEM "Horizontal Flip",  33324
+    MENUITEM "Velocity Compressor",  33325
+    MENUITEM SEPARATOR
+    MENUITEM "1 Octave Up",  32845
+    MENUITEM "1 Octave down",  32846
+    MENUITEM SEPARATOR
+    MENUITEM "Time Stretch",  33338
+    MENUITEM "Replace Control Change",  33294
+    MENUITEM "Replace control changes (multiple)",  33317
+    MENUITEM "Duplicate Onion Skin Note",  33095
+    MENUITEM "Tap Tempo & Fit",  33289
+    MENUITEM "Gate Batch Correction (X) for Duplicate Notes",  33313
+    MENUITEM "Restore Major Link Events",  33315
+    MENUITEM "Generate Harmony Part",  33344
+    MENUITEM SEPARATOR
+    POPUP "Vel / Value Adjust"
+    {
+      MENUITEM "Add in small increments",  33345
+      MENUITEM "Subtract",  33346
+      MENUITEM SEPARATOR
+      MENUITEM "Add in &medium increments",  33347
+      MENUITEM "Pull in medium increments",  33348
+      MENUITEM SEPARATOR
+      MENUITEM "Add Large Units",  33349
+      MENUITEM "Large Increment Subtraction",  33350
+    }
+    MENUITEM SEPARATOR
+    MENUITEM "End of Track Adjust",  32849
+    MENUITEM SEPARATOR
+    POPUP "Events in Event List"
+    {
+      MENUITEM "Properties",  32848
+      MENUITEM SEPARATOR
+      MENUITEM "Show in &1 Event Graph Pane 1",  33308
+      MENUITEM "Show in Event Graph Pane 2",  33309
+      MENUITEM SEPARATOR
+      MENUITEM "Send Event",  33047
+      MENUITEM "Pronunciation of Note Events",  33265
+      MENUITEM "Pronunciation of note events (chords)",  33266
+      MENUITEM SEPARATOR
+      MENUITEM "Re-edit Value",  32847
+      POPUP "Adjust Value"
+      {
+        MENUITEM "Add in small increments",  33038
+        MENUITEM "Subtract",  33039
+        MENUITEM SEPARATOR
+        MENUITEM "Add in medium increments",  33040
+        MENUITEM "Pull in medium increments",  33041
+        MENUITEM SEPARATOR
+        MENUITEM "Add Large Units",  33274
+        MENUITEM "Large Increment Subtraction",  33275
+      }
+      POPUP "Double Input Mode for Values"
+      {
+        MENUITEM "Raise",  33263
+        MENUITEM "Decrement",  33264
+      }
+    }
+  }
+  POPUP "Tools"
+  {
+    MENUITEM "Pen",  32850
+    MENUITEM "Select",  32851
+    MENUITEM "Eraser",  32852
+    MENUITEM SEPARATOR
+    MENUITEM "Toggle Pen / Selection Tool",  32853
+    MENUITEM SEPARATOR
+    POPUP "Code Entry Assistance"
+    {
+      MENUITEM "Settings",  33139
+      MENUITEM SEPARATOR
+      MENUITEM "Return to normal input",  33138
+      MENUITEM SEPARATOR
+      POPUP "Code list"
+      {
+        MENUITEM "No.001",  33140
+        MENUITEM "No.002",  33141
+        MENUITEM "No.003",  33142
+        MENUITEM "No.004",  33143
+        MENUITEM "No.005",  33144
+        MENUITEM "No.006",  33145
+        MENUITEM "No.007",  33146
+        MENUITEM "No.008",  33147
+        MENUITEM "No.009",  33148
+        MENUITEM "No.010",  33149
+        MENUITEM "No.011",  33150
+        MENUITEM "No.012",  33151
+        MENUITEM "No.013",  33152
+        MENUITEM "No.014",  33153
+        MENUITEM "No.015",  33154
+        MENUITEM "No.016",  33155
+        MENUITEM "No.017",  33156
+        MENUITEM "No.018",  33157
+        MENUITEM "No.019",  33158
+        MENUITEM "No.020",  33159
+        MENUITEM "No.021",  33160
+        MENUITEM "No.022",  33161
+        MENUITEM "No.023",  33162
+        MENUITEM "No.024",  33163
+        MENUITEM "No.025",  33164
+        MENUITEM "No.026",  33165
+        MENUITEM "No.027",  33166
+        MENUITEM "No.028",  33167
+        MENUITEM "No.029",  33168
+        MENUITEM "No.030",  33169
+        MENUITEM "No.031",  33170,  MENUBARBREAK
+        MENUITEM "No.032",  33171
+        MENUITEM "No.033",  33172
+        MENUITEM "No.034",  33173
+        MENUITEM "No.035",  33174
+        MENUITEM "No.036",  33175
+        MENUITEM "No.037",  33176
+        MENUITEM "No.038",  33177
+        MENUITEM "No.039",  33178
+        MENUITEM "No.040",  33179
+        MENUITEM "No.041",  33180
+        MENUITEM "No.042",  33181
+        MENUITEM "No.043",  33182
+        MENUITEM "No.044",  33183
+        MENUITEM "No.045",  33184
+        MENUITEM "No.046",  33185
+        MENUITEM "No.047",  33186
+        MENUITEM "No.048",  33187
+        MENUITEM "No.049",  33188
+        MENUITEM "No.050",  33189
+        MENUITEM "No.051",  33190
+        MENUITEM "No.052",  33191
+        MENUITEM "No.053",  33192
+        MENUITEM "No.054",  33193
+        MENUITEM "No.055",  33194
+        MENUITEM "No.056",  33195
+        MENUITEM "No.057",  33196
+        MENUITEM "No.058",  33197
+        MENUITEM "No.059",  33198
+        MENUITEM "No.060",  33199
+        MENUITEM "No.061",  33200,  MENUBARBREAK
+        MENUITEM "No.062",  33201
+        MENUITEM "No.063",  33202
+        MENUITEM "No.064",  33203
+        MENUITEM "No.065",  33204
+        MENUITEM "No.066",  33205
+        MENUITEM "No.067",  33206
+        MENUITEM "No.068",  33207
+        MENUITEM "No.069",  33208
+        MENUITEM "No.070",  33209
+        MENUITEM "No.071",  33210
+        MENUITEM "No.072",  33211
+        MENUITEM "No.073",  33212
+        MENUITEM "No.074",  33213
+        MENUITEM "No.075",  33214
+        MENUITEM "No.076",  33215
+        MENUITEM "No.077",  33216
+        MENUITEM "No.078",  33217
+        MENUITEM "No.079",  33218
+        MENUITEM "No.080",  33219
+        MENUITEM "No.081",  33220
+        MENUITEM "No.082",  33221
+        MENUITEM "No.083",  33222
+        MENUITEM "No.084",  33223
+        MENUITEM "No.085",  33224
+        MENUITEM "No.086",  33225
+        MENUITEM "No.087",  33226
+        MENUITEM "No.088",  33227
+        MENUITEM "No.089",  33228
+        MENUITEM "No.090",  33229
+        MENUITEM "No.091",  33230,  MENUBARBREAK
+        MENUITEM "No.092",  33231
+        MENUITEM "No.093",  33232
+        MENUITEM "No.094",  33233
+        MENUITEM "No.095",  33234
+        MENUITEM "No.096",  33235
+        MENUITEM "No.097",  33236
+        MENUITEM "No.098",  33237
+        MENUITEM "No.099",  33238
+        MENUITEM "No.100",  33239
+        MENUITEM "No.101",  33240
+        MENUITEM "No.102",  33241
+        MENUITEM "No.103",  33242
+        MENUITEM "No.104",  33243
+        MENUITEM "No.105",  33244
+        MENUITEM "No.106",  33245
+        MENUITEM "No.107",  33246
+        MENUITEM "No.108",  33247
+        MENUITEM "No.109",  33248
+        MENUITEM "No.110",  33249
+        MENUITEM "No.111",  33250
+        MENUITEM "No.112",  33251
+        MENUITEM "No.113",  33252
+        MENUITEM "No.114",  33253
+        MENUITEM "No.115",  33254
+        MENUITEM "No.116",  33255
+        MENUITEM "No.117",  33256
+        MENUITEM "No.118",  33257
+        MENUITEM "No.119",  33258
+        MENUITEM "No.120",  33259
+      }
+      MENUITEM SEPARATOR
+      MENUITEM "Show code list",  33262
+    }
+    MENUITEM SEPARATOR
+    POPUP "Quantize"
+    {
+      MENUITEM "Measure",  33359
+      MENUITEM "Whole",  33000
+      MENUITEM "3/4",  33001
+      MENUITEM "1/2",  33002
+      MENUITEM "1/3",  33003
+      MENUITEM "3/8",  33004
+      MENUITEM "1/4",  33005
+      MENUITEM "1/6",  33006
+      MENUITEM "3/16",  33007
+      MENUITEM "1/8",  33008
+      MENUITEM "1/12",  33009
+      MENUITEM "3/32",  33010
+      MENUITEM "1/16",  33011
+      MENUITEM "1/24",  33012
+      MENUITEM "3/64",  33013
+      MENUITEM "1/32",  33014
+      MENUITEM "1/48",  33015
+      MENUITEM SEPARATOR
+      MENUITEM "Link with Default Gate",  33295
+    }
+    MENUITEM "Tick Quantize",  32855
+    MENUITEM "Gate Quantize",  32856
+    MENUITEM SEPARATOR
+    POPUP "Default Gate"
+    {
+      MENUITEM "Whole",  33060
+      MENUITEM "3/4",  33061
+      MENUITEM "1/2",  33062
+      MENUITEM "1/3",  33063
+      MENUITEM "1/8",  33064
+      MENUITEM "1/4",  33065
+      MENUITEM "1/6",  33066
+      MENUITEM "3/16",  33067
+      MENUITEM "1/8",  33068
+      MENUITEM "1/12",  33069
+      MENUITEM "3/32",  33070
+      MENUITEM "1/16",  33071
+      MENUITEM "1/24",  33072
+      MENUITEM "3/64",  33073
+      MENUITEM "1/32",  33074
+      MENUITEM "1/48",  33075
+      MENUITEM SEPARATOR
+      MENUITEM "Increase",  33267
+      MENUITEM "Decrease",  33268
+    }
+    POPUP "Default Velocity"
+    {
+      MENUITEM "Molto fortissimo",  33059
+      MENUITEM "Fortissimo",  33058
+      MENUITEM "Forte",  33057
+      MENUITEM "Mezzoforte",  33056
+      MENUITEM "Mezzo piano",  33055
+      MENUITEM "Piano",  33054
+      MENUITEM "Pianissimo",  33053
+      MENUITEM "Molto pianissimo",  33052
+      MENUITEM SEPARATOR
+      MENUITEM "Increase",  33269
+      MENUITEM "Decrease",  33270
+    }
+    MENUITEM SEPARATOR
+    MENUITEM "Freehand",  32857
+    MENUITEM "Linear",  32858
+    MENUITEM "Gentle curve",  32859
+    MENUITEM "Fast curve",  32861
+    MENUITEM "S curve",  33337
+    MENUITEM "Random",  32862
+    POPUP "Custom"
+    {
+      MENUITEM "Edit",  32863
+      MENUITEM SEPARATOR
+      MENUITEM "0",  32864
+      MENUITEM "1",  32865
+      MENUITEM "2",  32866
+      MENUITEM "3",  32867
+      MENUITEM "4",  32868
+      MENUITEM "5",  32869
+      MENUITEM "6",  32870
+      MENUITEM "7",  32871
+      MENUITEM "8",  32872
+      MENUITEM "9",  32873
+      MENUITEM "10",  32874
+      MENUITEM "11",  32875
+      MENUITEM "12",  32876
+      MENUITEM "13",  32877
+      MENUITEM "14",  32878
+      MENUITEM "15",  32879
+      MENUITEM "16",  32880
+      MENUITEM "17",  32881
+      MENUITEM "18",  32882
+      MENUITEM "19",  32883
+    }
+    MENUITEM SEPARATOR
+    MENUITEM "Interval Settings",  32884
+    MENUITEM "Before Note",  32885
+    MENUITEM SEPARATOR
+    POPUP "Event graph 1"
+    {
+      MENUITEM "Anchor up / down movement only",  33320
+      MENUITEM "Rectangular Selection",  33331
+    }
+    POPUP "Event graph 2"
+    {
+      MENUITEM "Anchor up/down movement only",  33319
+      MENUITEM "Rectangular Selection",  33332
+    }
+  }
+  POPUP "Playback"
+  {
+    MENUITEM "Play Start / Stop",  32886
+    MENUITEM "Start Solo Play",  33130
+    MENUITEM "Start Bar Solo Play",  33127
+    MENUITEM "Start playing a bar solo loop",  33285
+    MENUITEM "Pause",  33048
+    MENUITEM "Quit",  33131
+    MENUITEM SEPARATOR
+    POPUP "Loop"
+    {
+      MENUITEM "Loop",  32887
+      MENUITEM "Selection Priority",  33339
+      MENUITEM SEPARATOR
+      MENUITEM "Create loop marker from selection",  33271
+      MENUITEM "Remove Loop Markers",  33272
+      MENUITEM SEPARATOR
+      MENUITEM "To Loop Marker Start",  33286
+      MENUITEM "To Loop Marker End Position",  33288
+    }
+    POPUP "Playback Speed"
+    {
+      MENUITEM "50%",  32889
+      MENUITEM "100%",  32890
+      MENUITEM "150%",  32891
+      MENUITEM "200%",  32892
+      MENUITEM "300%",  32893
+    }
+    MENUITEM SEPARATOR
+    MENUITEM "Top of song",  32894
+    MENUITEM "Go two measures back",  32998
+    MENUITEM "Back one measure",  32895
+    MENUITEM "Move forward by quantize",  33326
+    MENUITEM "Next by Quantize",  33327
+    MENUITEM "Next Bar",  32896
+    MENUITEM "To end of song",  32976
+    MENUITEM "Specify play position",  33340
+    MENUITEM SEPARATOR
+    MENUITEM "Play Track",  32897
+    MENUITEM "Solo performance",  32898
+    MENUITEM "Play All Tracks",  32899
+    MENUITEM SEPARATOR
+    MENUITEM "Match MIDI Devices",  32900
+    MENUITEM "Automatically Match MIDI Device State",  33035
+    MENUITEM "Track Individual Settings",  33096
+    MENUITEM SEPARATOR
+    MENUITEM "Send GM Reset",  33077
+    MENUITEM "Panic",  33330
+    MENUITEM SEPARATOR
+    MENUITEM "Calculate playing time",  32901
+    MENUITEM SEPARATOR
+    MENUITEM "Find Chords at Play Position",  33090
+    MENUITEM SEPARATOR
+    MENUITEM "Low load performance",  32999
+  }
+  POPUP "Track"
+  {
+    MENUITEM "Add Track",  32902
+    MENUITEM "Add Default Track",  33094
+    MENUITEM "Remove Track",  32903
+    MENUITEM "Track Properties",  32904
+    MENUITEM SEPARATOR
+    POPUP "Onion Skin Color"
+    {
+      MENUITEM "Automatic (unspecified)",  33297
+      MENUITEM SEPARATOR
+      MENUITEM "Red",  33298
+      MENUITEM "Orange",  33299
+      MENUITEM "Yellow",  33300
+      MENUITEM "Green",  33301
+      MENUITEM "Blue",  33302
+      MENUITEM "Purple",  33303
+      MENUITEM "Pink",  33304
+    }
+    MENUITEM SEPARATOR
+    POPUP "Change Displayed Tracks"
+    {
+      MENUITEM "Previous Track",  32905
+      MENUITEM "Next Track",  32906
+      MENUITEM SEPARATOR
+      MENUITEM "Previous Same Color Track",  33306
+      MENUITEM "To Next Same Color Track",  33305
+    }
+    MENUITEM SEPARATOR
+    MENUITEM "0",  32907
+    MENUITEM "1",  32908
+    MENUITEM "2",  32909
+    MENUITEM "3",  32910
+    MENUITEM "4",  32911
+    MENUITEM "5",  32912
+    MENUITEM "6",  32913
+    MENUITEM "7",  32914
+    MENUITEM "8",  32915
+    MENUITEM "9",  32916
+    MENUITEM "10",  32917
+    MENUITEM "11",  32918
+    MENUITEM "12",  32919
+    MENUITEM "13",  32920
+    MENUITEM "14",  32921
+    MENUITEM "15",  32922
+    MENUITEM "16",  32923
+    MENUITEM "17",  32924
+    MENUITEM "18",  32925
+    MENUITEM "19",  32926
+    MENUITEM "20",  32927
+    MENUITEM "21",  32928
+    MENUITEM "22",  32929
+    MENUITEM "23",  32930
+    MENUITEM "24",  32931
+    MENUITEM "25",  32932
+    MENUITEM "26",  32933
+    MENUITEM "27",  32934
+    MENUITEM "28",  32935
+    MENUITEM "29",  32936
+    MENUITEM "30",  32937
+    MENUITEM "31",  32938
+    MENUITEM "32",  32939
+    MENUITEM "33",  32940
+  }
+  POPUP "Marker"
+  {
+    MENUITEM "Insert Marker",  32941
+    MENUITEM SEPARATOR
+    MENUITEM "Previous Marker",  33342
+    MENUITEM "Next Marker",  33341
+    MENUITEM SEPARATOR
+    MENUITEM "0",  32943
+    MENUITEM "1",  32944
+    MENUITEM "2",  32945
+    MENUITEM "3",  32946
+    MENUITEM "4",  32947
+    MENUITEM "5",  32948
+    MENUITEM "6",  32949
+    MENUITEM "7",  32950
+    MENUITEM "8",  32951
+    MENUITEM "9",  32952
+    MENUITEM "10",  32953
+    MENUITEM "11",  32954
+    MENUITEM "12",  32955
+    MENUITEM "13",  32956
+    MENUITEM "14",  32957
+    MENUITEM "15",  32958
+    MENUITEM "16",  32959
+    MENUITEM "17",  32960
+    MENUITEM "18",  32961
+    MENUITEM "19",  32962
+    MENUITEM "20",  32963
+    MENUITEM "21",  32964
+    MENUITEM "22",  32965
+    MENUITEM "23",  32966
+    MENUITEM "24",  32967
+    MENUITEM "25",  32968
+    MENUITEM "26",  32969
+    MENUITEM "27",  32970
+    MENUITEM "28",  32971
+    MENUITEM "29",  32972
+  }
+  POPUP "Help"
+  {
+    MENUITEM "Instruction Manual",  33020
+    MENUITEM SEPARATOR
+    MENUITEM "Official Site",  33021
+    MENUITEM SEPARATOR
+    MENUITEM "Bug report",  33022
+    MENUITEM SEPARATOR
+    MENUITEM "Sound source definition file information",  33024
+    MENUITEM SEPARATOR
+    MENUITEM "About",  57664
+  }
+}
