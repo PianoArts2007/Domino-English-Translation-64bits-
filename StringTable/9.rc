@@ -1,0 +1,5 @@
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, 0x0
+{
+  128, 	"Domino"
+}
