@@ -430,3 +430,10 @@ After that, you can create a pull request by clicking the "New pull request" but
 This project is licensed under the terms of [MIT license](LICENSE), except contributions made by outside contributors before the licensing (10/09/2022). Permission have been granted for the usage of their code on this repository, but not under the license.
 
 Translations are made with reference of previous translations. These are used under good faith, but no permissions have been given by the translators. The list of the used previous translations can be viewed [in this page](https://hans5958.github.io/Black-MIDI-Meta/domino-translations/). 
+
+## Changes
+
+- The latest version of domino is able to load high ammounts of notes, up to 3 billion notes (if you have enough RAM and pagefile xd)
+- The font of all dialog files has been replaced because the old font sucks a lot but I wasn't able to change the font on the entire program :(
+* Note that there are still some parts of the program that I couldn't translate them bc I can't find any way to access them...
+
