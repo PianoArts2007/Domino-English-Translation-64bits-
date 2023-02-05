@@ -1,6 +1,0 @@
-STRINGTABLE
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-{
-  61202, 	"Restores window from minimization."
-  61203, 	"Switches application."
-}

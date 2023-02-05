@@ -1,6 +1,0 @@
-STRINGTABLE
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-{
-  59392, 	"Shows/Hides the toolbar.\nToggle Toolbar"
-  59393, 	"Shows/Hides the status bar.\nToggle Status Bar"
-}
